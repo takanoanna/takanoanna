@@ -1,0 +1,491 @@
+@charset "UTF-8";
+
+/* ヘッダー部分 */
+.top-header {
+  background-color: #ffffff;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.inter-ticket {
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dom-ticket {
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* 検索ボックス */
+.form-text {
+  background-color: #eeeeee;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+  color: #ffffff;
+  border: thin solid;
+  border-radius: 5px;
+  border-color: #ffffff;
+}
+
+.search-wrap {
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+.search-title {
+  background-color: #00000033;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.dep-arr-airport-form {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.dep {
+  padding-right: 40px;
+}
+
+.dep-form {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.arr-form {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.date-form {
+  display: flex;
+}
+
+.dep-date {
+  padding-right: 40px;
+}
+
+.dep-date-select {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.arr-date-select {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.pax {
+  display: flex;
+  align-items: center;
+  padding-bottom: 16px;
+  padding-top: 3px;
+}
+
+.adult-pax {
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.adult-pax-select {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.child-pax {
+  padding-top: 10px;
+  padding-right: 40px;
+}
+
+.child-pax-select {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.infant-pax {
+  padding-top: 10px;
+}
+
+.infant-pax-select {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.search-button {
+  background-color: #faa61a;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* 方面別 */
+.top-contents {
+  padding: 50px;
+  padding-top: 10px;
+}
+
+.top-contents-title {
+  background-color: #00000033;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/*アジア*/
+.asia {
+  padding: 5px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.des-asia {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.korea {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.taiwan {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.hkg {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.thailand {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.vietnam {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.philipin {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.indonesia {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.malaysia {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.singapore {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.india {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.asia-others {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/*北米*/
+.usa {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.des-usa {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nyc {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.lax {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.las {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.sfo {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.hnl {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.can {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.usa-others {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/*ヨーロッパ*/
+.eur {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.des-eur {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.uk {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.france {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.italy {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.spain {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.german {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.eur-others {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+/*オセアニア*/
+.oce {
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.des-oce {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.aus {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.nz {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.newcaledonia {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.oce-others {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/*フッター*/
+.footer {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  float: right;
+}
+
+.footer-inter-ticket {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.footer-dom-ticket {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.footer-question {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.footer-cancel {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+hr {
+  border: 0;
+  border-top: dotted 5px;
+  border-color: #eeeeee;
+  background-color: #f7f7f7;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: -15px;
+}
+
+li {
+  list-style-type:none;
+}
