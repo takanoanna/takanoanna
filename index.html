@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>TRAVEL</title>
+  <meta name="description" content="快適でお得な海外旅行をお届け">
+
+<!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page">
+
+<!-- ヘッダー部分 -->
+      <div class="top-header">
+        <div><a href="index.html"><img class="logo" src="logom.png" alt=”A Travelホーム”></a></div>
+        <div class="header-nav">
+          <div class="inter-ticket">
+          <button type="button" onclick="location.href='index.html'">海外航空券</button></div>
+          <div class="dom-ticket">
+          <button type="button" onclick="location.href='dom.html'">国内航空券</button></div>
+          <div><form action="https://www.google.co.jp/webhp?gws_rd=ssl" method="get">
+          <input class="form-text" type="search" placeholder="Search..."></form></div>
+        </div>
+      </div>
+
+<hr size="20" noshade>
+
+<!-- 検索ボックス -->
+    <div class="search-wrap">
+    <div class="search-title">お得な<span style="color:#4682b4">海外</span>航空券を検索！</div>
+      <ul class="search-box">
+        <div form action="#" method="post">
+          <li class="dep-arr-airport-form">
+            <div class="dep">出発地
+            <input class="dep-form" type="text" placeholder="出発地を入力してください">
+            </div>
+            <div class="arr">到着地
+            <input class="arr-form" type="text" placeholder="到着地を入力してください">
+            </div>
+          </li>
+          <li class="date-form">
+            <div class="dep-date">往路出発日
+            <input class="dep-date-select" type="date" placeholder="日付を選択してください">
+            </div>
+            <div class="arr-date">復路出発日
+            <input class="arr-date-select" type="date" placeholder="日付を選択してください">
+            </div>
+          </li>
+          <li class="pax-form">
+            <div class="pax">
+              <div class="adult-pax">大人
+              <select name="adult-pax-select" class="adult-pax-select">
+                <option value="adult1">1</option>
+                <option value="adult2">2</option>
+                <option value="adult3">3</option>
+                <option value="adult4">4</option>
+                <option value="adult5">5</option>
+                <option value="adult6">6</option>
+                <option value="adult7">7</option>
+                <option value="adult8">8</option>
+                <option value="adult9">9～</option>
+              </select>
+              </div>
+              <div class="child-pax">子供<br>(搭乗時2～11歳)
+              <select name="child-pax-select" class="child-pax-select">
+                <option value="child0">0</option>
+                <option value="child1">1</option>
+                <option value="child2">2</option>
+                <option value="child3">3</option>
+                <option value="child4">4</option>
+                <option value="child5">5</option>
+                <option value="child6">6</option>
+                <option value="child7">7</option>
+                <option value="child8">8</option>
+                <option value="child9">9～</option>
+              </select>
+              </div>
+              <div class="infant-pax">幼児<br>(搭乗時2歳未満)
+              <select name="infant-pax-select" class="infant-pax-select">
+                <option value="infant0">0</option>
+                <option value="infant1">1</option>
+                <option value="infant2">2</option>
+                <option value="infant3">3</option>
+                <option value="infant4">4</option>
+                <option value="infant5">5</option>
+                <option value="infant6">6</option>
+                <option value="infant7">7</option>
+                <option value="infant8">8</option>
+                <option value="infant9">9～</option>
+              </select>
+              </div>
+            </div>
+          </li>
+          <li>
+          <button class="search-button" type="button" onclick="location.href='search_result.html'">最安値を検索</button>
+          </li>
+      </ul>
+    </div>
+
+<!-- 方面別 -->
+    <div class="top-contents">
+      <div class="top-contents-title">人気の国・都市から探す</div>
+      <div class="asia">アジア</div>
+        <ul class="des-asia">
+          <li class="korea">
+            <button class="korea-search-results" type="button" onclick="location.href='korea.html'">韓国</button>
+          </li>
+          <li class="taiwan">台湾</li>
+          <li class="hkg">香港</li>
+          <li class="thailand">タイ</li>
+          <li class="vietnam">ベトナム</li>
+          <li class="indonesia">インドネシア</li>
+          <li class="malaysia">マレーシア</li>
+          <li class="singapore">シンガポール</li>
+          <li class="asia-others">その他</li>
+        </ul>
+      <div class="usa">北米</div>
+        <ul class="des-usa">
+          <li class="nyc">ニューヨーク</li>
+          <li class="lax">ロサンゼルス</li>
+          <li class="las">ラスベガス</li>
+          <li class="sfo">サンフランシスコ</li>
+          <li class="hnl">ハワイ</li>
+          <li class="can">カナダ</li>
+          <li class="usa-others">その他</li>
+        </ul>
+      <div class="eur">ヨーロッパ</div>
+        <ul class="des-eur">
+          <li class="uk">イギリス</li>
+          <li class="france">フランス</li>
+          <li class="italy">イタリア</li>
+          <li class="spain">スペイン</li>
+          <li class="german">ドイツ</li>
+          <li class="eur-others">その他</li>
+        </ul>
+      <div class="oce">オセアニア</div>
+        <ul class="des-oce">
+          <li class="aus">オーストラリア</li>
+          <li class="nz">ニュージーランド</li>
+          <li class="newcaledonia">ニューカレドニア</li>
+          <li class="oce-others">その他</li>
+        </ul>
+    </div>
+
+<hr size="20" noshade>
+
+<!-- フッター -->
+    <ul class="footer">
+      <li class="footer-inter-ticket">
+      <button type="button" onclick="location.href='index.html'">海外航空券</button>
+      </li>
+      <li class="footer-dom-ticket">
+      <button type="button" onclick="location.href='dom.html'">国内航空券</button>
+      </li>
+      <li class="footer-question">
+      <button type="button" onclick="location.href='index.html'">よくあるご質問</button>
+      </li>
+      <li class="footer-cancel">
+      <button type="button" onclick="location.href='index.html'">キャンセルについて</button>
+      </li>
+    </ul>
+
+  </div>
+</body>
+</html>
