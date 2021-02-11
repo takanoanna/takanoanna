@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+/* ヘッダー部分 */
+.top-header {
+  background-color: #ffffff;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 15px;
+}
+
+.inter-ticket {
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dom-ticket {
+  background-color: #eeeeee;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.form-text {
+  background-color: #eeeeee;
+  font-size: 15px;
+  padding: 10px;
+  width: 300px;
+  border: thin solid;
+  border-radius: 5px;
+  border-color: #ffffff;
+}
+
+/*検索結果*/
+.search-results{
+  padding: 50px;
+  padding-top: 30px;
+}
+
+.search-results-title {
+  background-color: #00000033;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.results-list {
+  display: flex;
+}
+
+.results1 {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.results2 {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.results1-airline,
+.results2-airline {
+  font-weight: bold;
+  padding: 10px 0 3px 0;
+}
+
+.results1-des,
+.results2-des {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 150px;
+}
+
+.results1-price,
+.results2-price {
+  font-size: 30px;
+  font-weight: bold;
+  color: red;
+  padding-top: 20px;
+  float: right;
+}
+
+/*その他のオススメ*/
+.search-results-others {
+  padding: 50px;
+  padding-top: 20px;
+}
+
+.top-contents-title {
+  background-color: #00000033;
+  border-radius: 10px;
+  padding: 15px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.des-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hokkaido,.tohoku,.kanto,.hokuriku,.koushinnetsu,.tokai,.kansai,.chugoku,.shikoku,.kyushu,.okinawa {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.okinawa {
+  margin-right: 0;
+}
+
+/*フッター*/
+.footer {
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  float: right;
+}
+
+.footer-inter-ticket,
+.footer-dom-ticket,
+.footer-question {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.footer-cancel {
+  background-color: #eeeeee;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+hr {
+  border: 0;
+  border-top: dotted 5px;
+  border-color: #eeeeee;
+  background-color: #f7f7f7;
+}
+
+br {
+  display: block;
+  content: "";
+  margin: -15px;
+}
+
+li {
+  list-style-type:none;
+}

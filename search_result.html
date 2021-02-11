@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>TRAVEL</title>
+  <meta name="description" content="快適でお得な海外旅行をお届け">
+
+<!-- CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link href="search_result.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page">
+
+<!-- ヘッダー部分 -->
+      <div class="top-header">
+        <div><a href="index.html"><img class="logo" src="logom.png" alt=”A Travelホーム”></a></div>
+        <div class="header-nav">
+          <div class="inter-ticket">
+          <button type="button" onclick="location.href='index.html'">海外航空券</button></div>
+          <div class="dom-ticket">
+          <button type="button" onclick="location.href='dom.html'">国内航空券</button></div>
+          <div><form action="https://www.google.co.jp/webhp?gws_rd=ssl" method="get">
+          <input class="form-text" type="search" placeholder="Search..."></form></div>
+        </div>
+      </div>
+
+<hr size="20" noshade>
+
+<!-- 検索条件表示 -->
+      <div class="search-summary">ソウル(韓国)行き・成田・羽田(東京)発 海外航空券/格安航空券 3件</div>
+
+<!-- サイドバー　-->
+      <div class="search-sidebar">
+        <div class="sidebar-title">検索条件</div>
+          <ul class="search-box">
+            <div form action="#" method="post">
+              <li class="dep-arr-airport-form">
+                <div class="dep">出発地
+                <input class="dep-form" type="text" placeholder="出発地を入力してください">
+                </div>
+                <div class="arr">到着地
+                <input class="arr-form" type="text" placeholder="到着地を入力してください">
+                </div>
+              </li>
+              <li class="date-form">
+                <div class="dep-date">往路出発日
+                <input class="dep-date-select" type="date" placeholder="日付を選択してください">
+                </div>
+                <div class="arr-date">復路出発日
+                <input class="arr-date-select" type="date" placeholder="日付を選択してください">
+                </div>
+              </li>
+              <li class="pax-form">
+                <div class="pax">
+                  <div class="adult-pax">大人
+                  <select name="adult-pax-select" class="adult-pax-select">
+                    <option value="adult1">1</option>
+                    <option value="adult2">2</option>
+                    <option value="adult3">3</option>
+                    <option value="adult4">4</option>
+                    <option value="adult5">5</option>
+                    <option value="adult6">6</option>
+                    <option value="adult7">7</option>
+                    <option value="adult8">8</option>
+                    <option value="adult9">9～</option>
+                  </select>
+                  </div>
+                  <div class="child-pax">子供<br>(搭乗時2～11歳)
+                  <select name="child-pax-select" class="child-pax-select">
+                    <option value="child0">0</option>
+                    <option value="child1">1</option>
+                    <option value="child2">2</option>
+                    <option value="child3">3</option>
+                    <option value="child4">4</option>
+                    <option value="child5">5</option>
+                    <option value="child6">6</option>
+                    <option value="child7">7</option>
+                    <option value="child8">8</option>
+                    <option value="child9">9～</option>
+                  </select>
+                  </div>
+                  <div class="infant-pax">幼児<br>(搭乗時2歳未満)
+                  <select name="infant-pax-select" class="infant-pax-select">
+                    <option value="infant0">0</option>
+                    <option value="infant1">1</option>
+                    <option value="infant2">2</option>
+                    <option value="infant3">3</option>
+                    <option value="infant4">4</option>
+                    <option value="infant5">5</option>
+                    <option value="infant6">6</option>
+                    <option value="infant7">7</option>
+                    <option value="infant8">8</option>
+                    <option value="infant9">9～</option>
+                  </select>
+                  </div>
+                </div>
+              </li>
+              <li>
+              <button class="search-button" type="button" onclick="location.href='search_result.html'">最安値を検索</button>
+              </li>
+          </ul>
+        </div>
+      </div>
+
+<!-- 検索結果一覧　-->
+      <div class="search-result-wrap">
+        <div class="search-schedule">
+          <ul class="schedule">
+            <li class="dep-airport">東京(成田・羽田)<br>2021/3/26(金)</li>
+            <li class="rt">往復<br>⇔</li>
+            <li class="arr-airport">ソウル(韓国)<br>2021/3/28(日)</li>
+          </ul>
+        </div>
+        <div class="search-result-list">
+          <ul class="item1">
+            <li class="title">
+              <div class="airline">大韓航空</div>
+              <div class="status">空席あり〇</div>
+              <div class="flight">直行便</div>
+              <div class="price">\29,000</div>
+            </li>
+            <li class="go-flight-schedule">
+              <div class="go">往路</div>
+              <div class="go-dep-time">成田国際空港<br>17:15</div>
+              <div class="yajirushi">＞＞＞━━━━━━━━━━━━━━━━━━━＞＞＞</div>
+              <div class="go-arr-time">仁川国際空港<br>19:15</div>
+            </li>
+            <li class="rtn-flight-schedule">
+              <div class="rtn">復路</div>
+              <div class="rtn-dep-time">仁川国際空港<br>11:25</div>
+              <div class="yajirushi">＞＞＞━━━━━━━━━━━━━━━━━━━＞＞＞</div>
+              <div class="rtn-arr-time">成田国際空港<br>13:25</div>
+            </li>
+            <li class="select-button">&#9992;フライトを予約</li>
+          </ul>
+
+            <ul class="item2">
+              <li class="title">
+                <div class="airline">アシアナ航空</div>
+                <div class="status">空席あり〇</div>
+                <div class="flight">直行便</div>
+                <div class="price">\31,000</div>
+              </li>
+              <li class="go-flight-schedule">
+                <div class="go">往路</div>
+                <div class="go-dep-time">成田国際空港<br>15:15</div>
+                <div class="yajirushi">＞＞＞━━━━━━━━━━━━━━━━━━━＞＞＞</div>
+                <div class="go-arr-time">仁川国際空港<br>17:15</div>
+              </li>
+              <li class="rtn-flight-schedule">
+                <div class="rtn">復路</div>
+                <div class="rtn-dep-time">仁川国際空港<br>12:25</div>
+                <div class="yajirushi">＞＞＞━━━━━━━━━━━━━━━━━━━＞＞＞</div>
+                <div class="rtn-arr-time">成田国際空港<br>14:25</div>
+              </li>
+              <li class="select-button">&#9992;フライトを予約</li>
+            </ul>
+
+            <ul class="item3">
+              <li class="title">
+                <div class="airline">ANA(全日空)</div>
+                <div class="status">空席あり〇</div>
+                <div class="flight">直行便</div>
+                <div class="price">\38,000</div>
+              </li>
+              <li class="go-flight-schedule">
+                <div class="go">往路</div>
+                <div class="go-dep-time">成田国際空港<br>14:15</div>
+                <div class="yajirushi">＞＞＞━━━━━━━━━━━━━━━━━━━＞＞＞</div>
+                <div class="go-arr-time">仁川国際空港<br>16:15</div>
+              </li>
+              <li class="rtn-flight-schedule">
+                <div class="rtn">復路</div>
+                <div class="rtn-dep-time">仁川国際空港<br>15:25</div>
+                <div class="yajirushi">＞＞＞━━━━━━━━━━━━━━━━━━━＞＞＞</div>
+                <div class="rtn-arr-time">成田国際空港<br>17:25</div>
+              </li>
+              <li class="select-button">&#9992;フライトを予約</li>
+            </ul>
+        </div>
+
+      </div>
+
+<hr size="20" noshade>
+<!-- フッター -->
+    <ul class="footer">
+      <li class="footer-inter-ticket">
+      <button type="button" onclick="location.href='index.html'">海外航空券</button>
+      </li>
+      <li class="footer-dom-ticket">
+      <button type="button" onclick="location.href='dom.html'">国内航空券</button>
+      </li>
+      <li class="footer-question">
+      <button type="button" onclick="location.href='index.html'">よくあるご質問</button>
+      </li>
+      <li class="footer-cancel">
+      <button type="button" onclick="location.href='index.html'">キャンセルについて</button>
+      </li>
+    </ul>
+
+  </div>
+</body>
+</html>
